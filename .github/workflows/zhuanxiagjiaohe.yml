@@ -1,29 +1,37 @@
 name: zhuanxiagjiaohe
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 5/6 * * *'
+    - cron: '30 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhuanxiagjiaohe
         env:
-          agy1: ${{ secrets.agy1 }}
+          hrun59: ${{ secrets.hrun59 }}
         run: |
-          echo $agy1 | jq -r .fggzi6 | /bin/bash
-          echo $xfi1 | jq -r .e8 | /bin/bash
-          echo $gh7 | jq -r .t691 | /bin/bash
-          echo $dxsi3 | jq -r .ee8 | /bin/bash
-          echo $o666 | jq -r .acte1 | /bin/bash
-          echo $lwdf6014 | jq -r .n67 | /bin/bash
-          echo $l42243 | jq -r .oe16254 | /bin/bash
-          echo $eyfbr9648 | jq -r .luwh82 | /bin/bash
-          echo $n4597 | jq -r .wdevn747 | /bin/bash
-          echo $jue1 | jq -r .irqdu7 | /bin/bash
-          echo $dkneb08904 | jq -r .tzkb3643 | /bin/bash
-          echo $swpbl75 | jq -r .ub154 | /bin/bash
-          echo $eh3 | jq -r .khb577 | /bin/bash
-          echo $fodum1280 | jq -r .qw66 | /bin/bash
+          echo $hrun59 | jq -r .zvwv2814 | /bin/bash
+          echo $tvs14 | jq -r .kebpp20 | /bin/bash
+          echo $s8759 | jq -r .cqktg478 | /bin/bash
+          echo $dsg656 | jq -r .nlswl69836 | /bin/bash
+          echo $cbb821 | jq -r .sucpo611 | /bin/bash
+          echo $pco96 | jq -r .wix8 | /bin/bash
+          echo $s22706 | jq -r .bfdw02 | /bin/bash
+          echo $jqepz979 | jq -r .x50 | /bin/bash
+          echo $o5 | jq -r .sm304 | /bin/bash
+          echo $d5 | jq -r .ceun5007 | /bin/bash
+          echo $tby80 | jq -r .yivi5527 | /bin/bash
+          echo $lqxh6940 | jq -r .fsqls64 | /bin/bash
+          echo $svq8884 | jq -r .c38 | /bin/bash
+          echo $z429 | jq -r .tse94378 | /bin/bash
+          echo $ty09 | jq -r .m357 | /bin/bash
+          echo $y4 | jq -r .vdf519 | /bin/bash
+          echo $p37 | jq -r .ubxq824 | /bin/bash
+          echo $qkexh4509 | jq -r .nb829 | /bin/bash
+          echo $sof56 | jq -r .uup75068 | /bin/bash
 

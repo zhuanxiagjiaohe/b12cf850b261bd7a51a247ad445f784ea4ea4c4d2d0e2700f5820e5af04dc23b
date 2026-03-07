@@ -2,30 +2,17 @@ name: zhuanxiagjiaohe
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 0/6 * * *'
-
+    - cron: '6 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhuanxiagjiaohe
         env:
-          xhurn053: ${{ secrets.xhurn053 }}
+          zjy7202: ${{ secrets.zjy7202 }}
         run: |
-          echo $xhurn053 | jq -r .ab2 | /bin/bash
-          echo $qal159 | jq -r .fefx699 | /bin/bash
-          echo $bg3 | jq -r .hou45078 | /bin/bash
-          echo $x41 | jq -r .i54446 | /bin/bash
-          echo $wl66157 | jq -r .llvsj5752 | /bin/bash
-          echo $axjlp56 | jq -r .pjp8 | /bin/bash
-          echo $e70 | jq -r .jxvve6 | /bin/bash
-          echo $gpd955 | jq -r .u99210 | /bin/bash
-          echo $nsw048 | jq -r .o8684 | /bin/bash
-          echo $sxnbt59 | jq -r .ch061 | /bin/bash
-          echo $k0 | jq -r .ze2361 | /bin/bash
-          echo $fgo67 | jq -r .gk08 | /bin/bash
-          echo $tof22 | jq -r .czy0 | /bin/bash
-          echo $gln0 | jq -r .bamy7 | /bin/bash
+          echo $zjy7202 | jq -r .q3626 | /bin/bash
+          echo $lhbr58894 | jq -r .uxzg2 | /bin/bash
+          echo $zdte21573 | jq -r .bgqt389 | /bin/bash
 
